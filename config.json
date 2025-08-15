@@ -1,0 +1,30 @@
+{
+  "oddsjam": {
+    "url": "https://fantasy.oddsjam.com/fantasy-odds/prizepicks",
+    "login_required": false,
+    "min_ev_threshold": 5.0
+  },
+  "prizepicks": {
+    "base_url": "https://app.prizepicks.com/?projections=",
+    "max_legs": 3
+  },
+  "telegram": {
+    "bot_token": "",
+    "chat_id": "",
+    "enabled": true
+  },
+  "filters": {
+    "sports": [],
+    "market_types": [],
+    "min_ev_percent": 5.0,
+    "max_legs": 3
+  },
+  "schedule": {
+    "refresh_interval_minutes": 1,
+    "enabled": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "slip_generator.log"
+  }
+}
